@@ -100,6 +100,7 @@ class Annotator(object):
                 gt=Image.fromarray(self.gt_cur)
                 gt.putpalette(self.PAL)
                 gt.save(self.save_file)
+            self.fig.canvas.mpl_disconnect(self.cid_bre)
             plt.close()
 
     def __on_button_press(self,event):
