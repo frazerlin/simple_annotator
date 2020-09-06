@@ -9,9 +9,9 @@ A simple annotator for labeling images or repairing labels.
 
 ## Usage
 #### Annotate Mode:
-"a": change to mode [annotate] (a polygon labeling mode);  
-left button: draw a polygon, set key points (it will end when a point near the initial one);  
-backspace:  retract the last stroke of the polygon;
+*"a": change to mode [annotate] (a polygon labeling mode);  
+*left button: draw a polygon, set key points (it will end when a point near the initial one);  
+*backspace:  retract the last stroke of the polygon;
 #### Bbox Mode:
 "b": change to mode [bbox];  
 left button: draw a bounding box as label;  
