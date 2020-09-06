@@ -9,27 +9,27 @@ A simple annotator for labeling images or repairing labels.
 
 ## Usage
 #### Annotate Mode:
-*"a": change to mode [annotate] (a polygon labeling mode);  
-*left button: draw a polygon, set key points (it will end when a point near the initial one);  
-*backspace:  retract the last stroke of the polygon;
+- "a": change to mode [annotate] (a polygon labeling mode);  
+- left button: draw a polygon, set key points (it will end when a point near the initial one);  
+- backspace:  retract the last stroke of the polygon;
 #### Bbox Mode:
-"b": change to mode [bbox];  
-left button: draw a bounding box as label;  
+- "b": change to mode [bbox];  
+- left button: draw a bounding box as label;  
 
 #### Change Mode:
-"c": change to mode [change];  
-left button: change the label of target instance to set label;  
-right button: change the target label of the whole image to set label;  
+- "c": change to mode [change];  
+- left button: change the label of target instance to set label;  
+- right button: change the target label of the whole image to set label;  
 
 #### Set  Label:
-"x": (x$\in$ [0,9]) : set a label (x), 0 can be used as eraser;  
-"`": set a label (255);  
-"-": auto set a unused label;  
+- "x": (x$\in$ [0,9]) : set a label (x), 0 can be used as eraser;  
+- "`": set a label (255);  
+- "-": auto set a unused label;  
 
 #### Others:
-"ctrl+z": revocation;  
-"esc": quit;  
-"enter": save output in [--out] and quit;  
+- "ctrl+z": revocation;  
+- "esc": quit;  
+- "enter": save output in [--out] and quit;  
 
 
 #### Label a new image:
