@@ -162,6 +162,7 @@ class Annotator(object):
         if not event.inaxes:return
         if self.mode=='bbox':
             spt,ept=self.bbox_spt,[int(event.xdata+0.5), int(event.ydata+0.5)]
+            self.gt_backup.append(self.gt_cur.copy())
             cv2.rectangle(self.gt_cur,tuple(spt),tuple(ept),self.label,-1)
             self.ax1.clear()
             self.ax2.clear()

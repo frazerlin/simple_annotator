@@ -22,7 +22,7 @@ A simple annotator for labeling images or repairing labels.
 - right button: change the target label of the whole image to set label;  
 
 #### Set  Label:
-- "x": (x$\in$ [0,9]) : set a label (x), 0 can be used as eraser;  
+- "x": (x in [0,9]) : set a label (x), 0 can be used as eraser;  
 - "`": set a label (255);  
 - "-": auto set a unused label;  
 
